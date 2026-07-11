@@ -1,28 +1,28 @@
 class ClaudeCodeStatusline < Formula
   desc "Fast, config-driven statusline for Claude Code"
   homepage "https://github.com/timrcase/claude-code-statusline"
-  version "1.3.0"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/timrcase/claude-code-statusline/releases/download/v#{version}/claude-code-statusline-darwin-arm64.tar.gz"
-      sha256 "4b53fe375ff49a31b1884f9ba9289e52bd19039e18c9649bd6eef15e0c87f443"
+      sha256 "c479cc2cef568f395149e3473ad8f07a8e56c14d51458ab67b81b3efd54dadd0"
     end
     on_intel do
       url "https://github.com/timrcase/claude-code-statusline/releases/download/v#{version}/claude-code-statusline-darwin-amd64.tar.gz"
-      sha256 "f1051e7f0297f1dfe38cf24d1c3eb322f035fc96c4e1c39254156d8d2e83501c"
+      sha256 "df63c9d5b63e34aeabc74507d0a578143b39c67deda3aadaf501449c7c3d53c6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/timrcase/claude-code-statusline/releases/download/v#{version}/claude-code-statusline-linux-arm64.tar.gz"
-      sha256 "7b0bfe5e16991741b2547a5ea0a0a655c1d8d4c035867109d20558c036173982"
+      sha256 "1051bd341780a7363c9452cab296ad22cdf797bfc521ee62d8ba6435bbb0d83e"
     end
     on_intel do
       url "https://github.com/timrcase/claude-code-statusline/releases/download/v#{version}/claude-code-statusline-linux-amd64.tar.gz"
-      sha256 "fc7eb34dadf3d693a3fd38ca1264a6369227284a07caad5eb7bfa3b788274024"
+      sha256 "4be4ccccb70250c028bf3933efca20f80f6446ed3bb7ece2aef002c0c9f514e7"
     end
   end
 
